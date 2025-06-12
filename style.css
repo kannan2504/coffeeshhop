@@ -1,0 +1,71 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    background-image: url(images/coffeeshop2.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    }
+.contact-us{
+    color: rgba(204, 84, 37, 0.793);
+    text-align: center;
+    }
+
+.cnct p{
+    color: rgb(84, 87, 80);
+}
+
+
+
+.our-detials{
+    list-style: none;
+}
+
+
+
+  /* container element */
+.contact-title{
+    color: rgba(103, 42, 6, 0.827);
+    text-align: center;
+}
+.container{
+    max-width: 400px;
+    border-radius: 40px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(122, 124, 123,0.1);
+    backdrop-filter: blur(10px);
+} 
+.label{
+    display: block;
+    margin-bottom: 5px;
+    
+}
+.input,.textarea{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(90, 88, 88);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+   
+}
+.input:focus{
+    border:1px solid rgb(238, 205, 205);
+    
+}
+.btn{
+    padding: 5px;
+    background-color: rgb(104, 118, 114,0.5);
+    border-radius: 5px;
+    margin: 4px 2px 0  ;
+    margin-top: 10px;
+}
