@@ -2,7 +2,8 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
     padding: 20px;
-    background-image: url(images/coffeeshop2.jpeg);
+    background-image: url(images/coffeeshop3.jpeg);
+    background-position: right;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     
@@ -14,7 +15,7 @@ body{
     
     }
 .contact-us{
-    color: rgba(204, 84, 37, 0.793);
+    color: rgba(14, 47, 234, 0.793);
     text-align: center;
     }
 
@@ -32,7 +33,7 @@ body{
 
   /* container element */
 .contact-title{
-    color: rgba(103, 42, 6, 0.827);
+    color: rgba(34, 13, 192, 0.827);
     text-align: center;
 }
 .container{
@@ -46,6 +47,7 @@ body{
 .label{
     display: block;
     margin-bottom: 5px;
+    color: rgba(159, 208, 80, 0.658);
     
 }
 .input,.textarea{
@@ -58,6 +60,10 @@ body{
     background-color: transparent;
    
 }
+.textarea
+{
+    max-width: 400px;
+    max-height: 300px;}
 .input:focus{
     border:1px solid rgb(238, 205, 205);
     
@@ -68,4 +74,21 @@ body{
     border-radius: 5px;
     margin: 4px 2px 0  ;
     margin-top: 10px;
+    color:white;
+}
+.btn:hover{
+    background-color:transparent;
+    color: rgb(131, 81, 81);
+    border: 1px solid whitesmoke;
+}
+
+
+@media screen and (max-width:800px) {
+    .contact-section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+        gap: 50px;
+    
+    }
 }
