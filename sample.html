@@ -5,30 +5,57 @@
         <link rel="stylesheet" href="style.css">
         </head>
     <body>
-        <div class="contact-section">
-            <div class="contact-detials">
-                <h2 class="contact-us">Contact Detials</h2>
-                <ul class="our-detials">
-                    <li class="location cnct"> <i class="fa-solid fa-location"></i><p> No 8, 3rd cross street,kilpauk,Chennai</p></li>
-                    <li class="phone cnct"> <i class="fa-solid fa-phone"></i> <p>+91 6383300211</p></li>
-                    <li class="clock cnct"> <i class="fa-regular fa-clock"></i><p> Monday - Sunday : 04:00 PM - 01:00 Am</p></li>
-                    <li class="envolope cnct"> <i class="fa-regular fa-envelope"></i> <p>mail2kannan2504@gmail.com</p></li>
-                </ul>
+        
+            <div class="contact-section">
+                <div class="contact-detials">
+                    <h2 class="contact-us">Contact Detials</h2>
+                    <ul class="our-detials">
+                        <li class="location cnct"> <i class="fa-solid fa-location"></i><p> No 8, 3rd cross street,kilpauk,Chennai</p></li>
+                        <li class="phone cnct"> <i class="fa-solid fa-phone"></i> <p>+91 6383300211</p></li>
+                        <li class="clock cnct"> <i class="fa-regular fa-clock"></i><p> Monday - Sunday : 04:00 PM - 01:00 Am</p></li>
+                        <li class="envolope cnct"> <i class="fa-regular fa-envelope"></i> <p>mail2kannan2504@gmail.com</p></li>
+                    </ul>
+                </div>
+                <div class="container">
+                    <h2 class="contact-title">Contact Form</h2>
+                    <form action="" class="contactForm" id="contactForm" method="post">
+                        <label for="name" class="label">Name : </label><input type="text" name="user_name" placeholder="Enter your name" class="input" >
+
+
+                        <label for="mail" class="label">email : </label><input type="email" name="user_mail" placeholder="abc@email.com" class="input"  required>
+
+                        <label for="phone" class="label">Contact number :</label><input class="input"  type="tel" name="phoneNumber" placeholder="123-456-789"  >
+                        
+                        <label for="text" class="label">Message :</label><textarea name="text" class="textarea" placeholder="Text Here"></textarea>
+                        <input type="submit" class="btn" value="submit">
+                        <input type="reset" class="btn" value="clear">
+                    </form>
+                </div>
             </div>
-            <div class="container">
-                <h2 class="contact-title">Contact Form</h2>
-                <form action="" class="contactForm" id="contactForm" method="post">
-                    <label for="name" class="label">Name : </label><input type="text" name="user_name" placeholder="Enter your name" class="input" >
-
-
-                    <label for="mail" class="label">email : </label><input type="email" name="user_mail" placeholder="abc@email.com" class="input"  required>
-
-                    <label for="phone" class="label">Contact number :</label><input class="input"  type="tel" name="phoneNumber" placeholder="123-456-789"  >
-                    
-                    <label for="text" class="label">Message :</label><textarea name="text" class="textarea" placeholder="Text Here"></textarea>
-                    <input type="submit" class="btn" value="submit">
-                    <input type="reset" class="btn" value="clear">
-                </form>
-            </div>
-        </div>
+            
+        <!-- <footer class="footer">
+            <ul class="footer-section">
+                <li class="term-list">
+                    <p class="terms">Terms & conditions</p>
+                </li>
+                <li class="copy-list">
+                    <p class="copy">© Copyright</p>
+                </li>
+                <li class="social-list">
+                    <p class="social">
+                        <a href="#" class="facebook  link"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#" class="insta  link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="twitter  link"><i class="fa-brands fa-x-twitter"></i></a>
+                    </p>
+                </li>
+                <li class="privacy-list">
+                    <p class="privacy">Privacy policies</p>
+                </li>
+            </ul>
+            
+        </footer> 
+         -->
     </body>
+    
+        
+</html>

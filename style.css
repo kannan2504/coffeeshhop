@@ -1,3 +1,4 @@
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 10px;
@@ -6,7 +7,12 @@ body{
     background-position: right;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    object-fit: cover;
+   
     
+}
+.contact{
+    margin-bottom: 150px;
 }
 .contact-section{
     display: flex;
@@ -15,12 +21,12 @@ body{
     
     }
 .contact-us{
-    color: rgba(14, 47, 234, 0.793);
+    color: rgba(160, 203, 31, 0.793);
     text-align: center;
     }
 
 .cnct p{
-    color: rgb(84, 87, 80);
+    color: rgb(225, 227, 221);
 }
 
 
@@ -37,27 +43,34 @@ body{
     text-align: center;
 }
 .container{
+    margin-top:200px ;
     max-width: 400px;
     border-radius: 40px;
     margin: auto;
     padding: 20px;
-    background-color: rgb(122, 124, 123,0.1);
+    background-color: rgba(75, 129, 102, 0.1);
     backdrop-filter: blur(10px);
 } 
+.contact-detials{
+    font-size: small;
+    font-weight: 500;
+    
+}
 .label{
     display: block;
     margin-bottom: 5px;
-    color: rgba(159, 208, 80, 0.658);
+    color: rgba(140, 218, 14, 0.658);
     
 }
 .input,.textarea{
     width: 80%;
     padding: 5px;
     margin-bottom: 5px;
-    border: 1px solid rgb(90, 88, 88);
+    border: 1px solid rgb(105, 65, 65);
     border-radius: 10px;
     outline: none;
     background-color: transparent;
+    color: azure;
    
 }
 .textarea
@@ -83,12 +96,41 @@ body{
 }
 
 
+
+/* footer design */
+  /* .footer{
+    
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color: rgb(153, 130, 101);
+        border: 1px solid rgb(248, 240, 240);
+       border: none;
+        color: white;
+        
+        transform: scaleX(1.13) translateY(170px);
+        
+    } 
+    
+    .footer-section{
+        display: flex;
+        justify-content: space-between;
+
+        list-style: none;
+
+    }
+    .privacy-list{
+        padding-right:50px ;
+    } */
+
 @media screen and (max-width:800px) {
     .contact-section{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
-        gap: 50px;
-    
+        
     }
+
+
+   
 }
