@@ -1,0 +1,181 @@
+
+
+.nav-menu{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.menu-item{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.menu-item:hover{
+    background-color: aqua;
+    border: 2px solid aqua;
+    border: none;
+    border-radius: 50%;
+    color: black;
+    transition: 0.3s ease;
+   
+}
+.nav-item a{
+    text-decoration: none;
+    color: rgb(230, 34, 34);
+    
+}
+.nav-logo{
+   
+    text-decoration: none;
+    color: rgb(195, 32, 3,0.1);
+}
+.navbar{
+    background-color: rgba(164, 167, 35, 0.852);
+
+}
+.nav-text{
+    font-size: 50px;
+    font-weight: 1000;
+    background-image: url(images/coffeeshop2.jpeg);
+    -webkit-background-clip:text;
+    background-position: bottom;
+}
+
+
+ .nav-menu button{
+    display: none;
+} 
+ .menu-open{        
+    display: none;
+}
+   /* .menu-icon{       // not in use 
+    display:none; 
+}    */
+/*
+@media screen and (max-width:800px) {
+
+
+     .navbar :where(#menu-close-button ,#menu-open-button ){
+
+     display: block;
+     
+    font-size: large;
+    font-weight: 600;
+}
+
+
+    .navbar{
+    display: block;
+    
+}
+ /* .menu-icon{
+    display: flex;
+}  */
+
+/*
+ .navbar .nav-menu{
+    display: block;
+    position:fixed;
+    right: 0px;
+    top:100;
+    width:300px;
+    height:100%;
+    background-color: rgb(64,0,0,0.2);
+
+
+    /* align items within nav menu  */
+ /*   display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    transition:top 2s ease; 
+
+ }
+ 
+
+body.show-mobile-menu .navbar .nav-menu {
+    right: 0; /* Reveal menu 
+}*/
+
+  @media screen and (max-width:800px) {
+
+
+.navbar :where(#menu-close-button ,#menu-open-button ){
+display: block;  
+font-size: large;
+font-weight: 600;
+}
+
+.navbar{
+    display: block;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+ .navbar .nav-menu{
+    display: block;
+    position:fixed;
+    right: 10px;;
+    top:0;
+    width:300px;
+    height:100%;
+    background-color: rgb(64,0,0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 150px;
+    transition:right 3s ease;
+    z-index: 1;
+ }
+/* 
+body.show-mobile-menu .navbar .nav-menu .menu-item{
+    right: 0;
+} */
+ .navbar .menu-item{
+     display: block;
+     margin-top: 15px;
+     font-size: large;
+     font-weight: 700;
+ }
+  /* #menu-open-button{      // not required
+    display: flex;
+   
+} */
+ #menu-close-button{
+    display: flex;
+   
+}
+.menu-open button{
+    
+    position: absolute;
+    background-color: rgb(64, 64, 64);
+    color: rgb(240, 242, 240);
+    top: 10px;
+    right: 0;
+}
+.menu-open{
+    display: flex;
+    
+    
+   /* flex-direction:column;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-right: 10px;   */
+    
+}  
+.navbar .nav-menu {
+    right: -300px; /* Hide menu */
+}
+body.show-mobile-menu .navbar .nav-menu {
+   right : 0; /* Reveal menu */
+}
+
+    
+}
