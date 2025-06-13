@@ -1,0 +1,136 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 20px;
+    background-image: url(images/coffeeshop3.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+   
+    
+}
+.contact{
+    margin-bottom: 150px;
+}
+.contact-section{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    }
+.contact-us{
+    color: rgba(160, 203, 31, 0.793);
+    text-align: center;
+    }
+
+.cnct p{
+    color: rgb(225, 227, 221);
+}
+
+
+
+.our-detials{
+    list-style: none;
+}
+
+
+
+  /* container element */
+.contact-title{
+    color: rgba(34, 13, 192, 0.827);
+    text-align: center;
+}
+.container{
+    margin-top:200px ;
+    max-width: 400px;
+    border-radius: 40px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(75, 129, 102, 0.1);
+    backdrop-filter: blur(10px);
+} 
+.contact-detials{
+    font-size: small;
+    font-weight: 500;
+    
+}
+.label{
+    display: block;
+    margin-bottom: 5px;
+    color: rgba(140, 218, 14, 0.658);
+    
+}
+.input,.textarea{
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(105, 65, 65);
+    border-radius: 10px;
+    outline: none;
+    background-color: transparent;
+    color: azure;
+   
+}
+.textarea
+{
+    max-width: 400px;
+    max-height: 300px;}
+.input:focus{
+    border:1px solid rgb(238, 205, 205);
+    
+}
+.btn{
+    padding: 5px;
+    background-color: rgb(104, 118, 114,0.5);
+    border-radius: 5px;
+    margin: 4px 2px 0  ;
+    margin-top: 10px;
+    color:white;
+}
+.btn:hover{
+    background-color:transparent;
+    color: rgb(131, 81, 81);
+    border: 1px solid whitesmoke;
+}
+
+
+
+/* footer design */
+  /* .footer{
+    
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        background-color: rgb(153, 130, 101);
+        border: 1px solid rgb(248, 240, 240);
+       border: none;
+        color: white;
+        
+        transform: scaleX(1.13) translateY(170px);
+        
+    } 
+    
+    .footer-section{
+        display: flex;
+        justify-content: space-between;
+
+        list-style: none;
+
+    }
+    .privacy-list{
+        padding-right:50px ;
+    } */
+
+@media screen and (max-width:800px) {
+    .contact-section{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+        
+    }
+
+
+   
+}
